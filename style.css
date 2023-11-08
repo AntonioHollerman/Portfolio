@@ -113,6 +113,25 @@ nav a {
 .paragraphs p {
     margin: 0;
 }
+
 .certification ul li{
     color: black;
+    white-space: nowrap;
+}
+
+.cert-title{
+    text-decoration: underline;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.tab-txt{
+    width: 225px;  /* Adjust this value as needed */
+    vertical-align: text-top;
+    color: black;
+}
+
+.tab-col{
+    vertical-align: top;
+    padding: 0 10px;
 }

@@ -8,6 +8,12 @@ body {
     background-color: #ecf8db;
 }
 
+#face-shot{
+    width:230px;
+    height:200px;
+    border: 5px solid whitesmoke;
+}
+
 header {
     background-color: #7f847c;
     color: #fff;
@@ -26,8 +32,7 @@ header {
 
 
 main {
-    max-width: 800px;
-    margin: auto;
+
 }
 
 .certification {
@@ -97,6 +102,9 @@ nav a {
 .wrapper {
     display: flex;
     align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 50%;
 }
 
 .image {
@@ -134,4 +142,16 @@ nav a {
 .tab-col{
     vertical-align: top;
     padding: 0 10px;
+}
+
+table{
+    margin: 0 auto;
+}
+
+.wrapper div p{
+    width: 650px;
+}
+
+.wrapper img{
+    border: 5px solid black;
 }

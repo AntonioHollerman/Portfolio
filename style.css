@@ -1,39 +1,37 @@
 body {
-    color: #777777;
+    color: #000000; /* Set text color to black */
     font-family: "Poppins", serif;
     font-size: 15px;
     font-weight: 300;
     line-height: 1.625em;
     position: relative;
-    background-color: #ecf8db;
+    background-color: #c5c6c8;
 }
 
-#face-shot{
-    width:230px;
-    height:200px;
-    border: 5px solid whitesmoke;
+#face-shot {
+    width: 230px;
+    height: 200px;
+    border: 3px solid #46a29f;
 }
 
 header {
-    background-color: #7f847c;
-    color: #fff;
+    background-color: #202833;
+    color: #000000; /* Make header text white */
     padding: 1rem;
 }
 
 .main-text {
     font-weight: bold;
+    color: #000000; /* Make headings white */
 }
 
 .sub-text {
     font-weight: normal;
     flex-grow: 1;
-    color: #dadada;
+    color: #000000; /* Set rest of the text color to black */
 }
 
-
-main {
-
-}
+main {}
 
 .certification {
     margin-top: 2rem;
@@ -48,6 +46,7 @@ main {
 
 nav {
     text-align: right;
+    color: #ffffff; /* Keep the nav bar text color the same */
 }
 
 nav ul {
@@ -73,19 +72,19 @@ nav a {
     gap: 0; /* Reduce the gap to 5px */
     align-content: center;
 }
+
 .skills {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
 }
 
-
 .skill {
     padding: 10px;
     max-width: 250px; /* Set the minimum height of each box */
 }
 
-.socials{
+.socials {
     margin-top: 2rem;
     display: flex;
     align-items: center;
@@ -95,7 +94,8 @@ nav a {
     float: left;
     margin-right: 2rem;
 }
-.skills div p{
+
+.skills div p {
     color: cadetblue;
 }
 
@@ -109,8 +109,8 @@ nav a {
 
 .image {
     margin-right: 10px;
-    width:450px;
-    height:300px;
+    width: 450px;
+    height: 300px;
 }
 
 .paragraphs {
@@ -122,36 +122,41 @@ nav a {
     margin: 0;
 }
 
-.certification ul li{
-    color: black;
+.certification ul li {
+    color: #000000; /* Set certification text color to black */
     white-space: nowrap;
 }
 
-.cert-title{
+.cert-title {
     text-decoration: underline;
     list-style-type: none;
     font-size: 20px;
+    color: #ffffff; /* Make certification titles white */
 }
 
-.tab-txt{
-    width: 225px;  /* Adjust this value as needed */
+.tab-txt {
+    width: 225px;
     vertical-align: text-top;
-    color: black;
+    color: #000000; /* Set tab text color to black */
 }
 
-.tab-col{
+.tab-col {
     vertical-align: top;
     padding: 0 10px;
 }
 
-table{
+table {
     margin: 0 auto;
 }
 
-.wrapper div p{
+.wrapper div p {
     width: 650px;
 }
 
-.wrapper img{
-    border: 5px solid black;
+.wrapper img {
+    border: 2px solid black;
+}
+
+.divider{
+    color: black;
 }

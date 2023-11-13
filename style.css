@@ -95,6 +95,10 @@ nav a {
     margin-right: 2rem;
 }
 
+.socials div p{
+    margin-left: 50px;
+}
+
 .skills div p {
     color: cadetblue;
 }
@@ -147,6 +151,7 @@ nav a {
 
 table {
     margin: 0 auto;
+    border-spacing: 25px 0;
 }
 
 .wrapper div p {

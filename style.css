@@ -1,6 +1,6 @@
 body {
     color: #000000; /* Set text color to black */
-    font-family: "Poppins", serif;
+    font-family: "Poppins", sans-serif;
     font-size: 15px;
     font-weight: 300;
     line-height: 1.625em;
@@ -165,3 +165,37 @@ table {
 .divider{
     color: black;
 }
+
+.enlarge {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 9999;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.enlarge:target {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.enlarge img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 90%;
+    max-height: 90%;
+}
+/*<a href="#enlarge">*/
+/*<img src="your-image.jpg" alt="Your Image">*/
+/*</a>*/
+
+/*<div id="enlarge">*/
+/*<img src="your-image.jpg" alt="Your Image">*/
+/*</div>*/
